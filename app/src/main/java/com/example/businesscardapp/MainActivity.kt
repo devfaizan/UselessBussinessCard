@@ -4,7 +4,9 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -26,7 +28,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -58,6 +59,14 @@ class MainActivity : ComponentActivity() {
 //}
 
 @Composable
+fun TopSpacing(){
+    Spacer(modifier = Modifier.height(100.dp))
+}
+@Composable
+fun MidSpacing(){
+    Spacer(modifier = Modifier.height(30.dp))
+}
+@Composable
 fun Header(){
     Column(
         verticalArrangement = Arrangement.SpaceAround,
@@ -65,11 +74,14 @@ fun Header(){
 
     ) {
         val image = painterResource(R.drawable.android_logo)
-        Image(painter = image, contentDescription = null,
-            modifier = Modifier
-                .width(100.dp)
-                .height(100.dp)
-        )
+        Box (modifier = Modifier.background(Color(0xFF073042))){
+            Image(
+                painter = image, contentDescription = null,
+                modifier = Modifier
+                    .width(100.dp)
+                    .height(100.dp)
+            )
+        }
         Text(text = stringResource(R.string.full_name), fontSize = 40.sp ,
 
             modifier = Modifier
@@ -107,7 +119,9 @@ fun BusinessCardScreen(){
         verticalArrangement = Arrangement.SpaceAround,
         modifier = Modifier.fillMaxSize()
     ) {
+        TopSpacing()
         Header()
+        MidSpacing()
         Contact()
 
 
