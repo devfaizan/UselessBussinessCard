@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">businesscardapp</string>
     <string name="full_name">Your Bad Name</string>
-    <string name="title">Company Where you sit in a cubical</string>
+    <string name="title">Company Where you sit in a cubicle</string>
     <string name="phonee">+PHONE-THAT-DOES\'NT-RING</string>
     <string name="username">\@YourGamerTag</string>
     <string name="emaill">spamthisemail@email.com</string>
