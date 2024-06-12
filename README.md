@@ -4,5 +4,15 @@
 <br>
 <br>
 
+### Dark Mode
+<br>
 
-![screengrab](https://github.com/devfaizan/UselessBussinessCard/assets/57047429/915f6331-1bf9-4748-aba0-a846fc143891)
+![screengrabdark](https://github.com/devfaizan/UselessBussinessCard/assets/57047429/1add5fbb-c25d-4182-ba4c-546fa480c314)
+
+<br>
+### Light Mode
+<br>
+
+![screengrablight](https://github.com/devfaizan/UselessBussinessCard/assets/57047429/80286886-4f5c-4a2f-bd1c-20653a317539)
+
+
