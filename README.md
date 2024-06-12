@@ -7,11 +7,13 @@
 ### Dark Mode
 <br>
 
-![screengrabdark](https://github.com/devfaizan/UselessBussinessCard/assets/57047429/1add5fbb-c25d-4182-ba4c-546fa480c314)
+![screengrabdark](https://github.com/devfaizan/UselessBussinessCard/assets/57047429/0ab9c024-d07d-4165-bba9-ba9655edb4d1)
+
 
 ### Light Mode
 <br>
 
-![screengrablight](https://github.com/devfaizan/UselessBussinessCard/assets/57047429/80286886-4f5c-4a2f-bd1c-20653a317539)
+![screengrablight](https://github.com/devfaizan/UselessBussinessCard/assets/57047429/12b417dc-4aae-4d89-b565-a11385d15f0d)
+
 
 
