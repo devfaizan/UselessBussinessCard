@@ -9,7 +9,6 @@
 
 ![screengrabdark](https://github.com/devfaizan/UselessBussinessCard/assets/57047429/1add5fbb-c25d-4182-ba4c-546fa480c314)
 
-<br>
 ### Light Mode
 <br>
 
